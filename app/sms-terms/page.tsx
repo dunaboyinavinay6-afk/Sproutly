@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import { LegalLayout } from "@/components/site/LegalLayout";
 
-// TODO: Replace [REPLACE_WITH_YOUR_EMAIL] with the real support inbox before submitting to Twilio.
-const SUPPORT_EMAIL = "[REPLACE_WITH_YOUR_EMAIL]";
+const SUPPORT_EMAIL = "tejeshwar@sproutly.agency";
 const LAST_UPDATED = "June 2, 2026";
 
 export const metadata: Metadata = {
