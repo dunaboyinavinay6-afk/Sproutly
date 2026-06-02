@@ -64,6 +64,32 @@
   }
 }
 
+@layer components {
+  /* Long-form legal copy — typographic rhythm without the typography plugin. */
+  .legal-prose h2 {
+    @apply mt-11 font-display text-xl font-bold tracking-tight text-ink;
+  }
+  .legal-prose h2:first-child {
+    @apply mt-0;
+  }
+  .legal-prose p {
+    @apply mt-3 leading-relaxed text-ink-soft;
+  }
+  .legal-prose ul {
+    @apply mt-3 space-y-2 pl-5 text-ink-soft;
+    list-style: disc;
+  }
+  .legal-prose li {
+    @apply leading-relaxed;
+  }
+  .legal-prose a {
+    @apply font-medium text-evergreen underline underline-offset-4 transition-colors hover:text-evergreen-deep;
+  }
+  .legal-prose strong {
+    @apply font-semibold text-ink;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;

@@ -55,9 +55,26 @@ export function Footer() {
       </div>
 
       <div className="border-t rule">
-        <div className="shell flex flex-col gap-2 py-6 text-sm text-ink-soft sm:flex-row sm:items-center sm:justify-between">
+        <div className="shell flex flex-col gap-4 py-6 text-sm text-ink-soft sm:flex-row sm:items-center sm:justify-between">
           <p>&copy; 2026 Sproutly. All rights reserved.</p>
-          <p>Built right, shipped fast.</p>
+          <nav
+            aria-label="Legal"
+            className="flex flex-wrap items-center gap-x-5 gap-y-2"
+          >
+            <a
+              href="/sms-terms"
+              className="transition-colors hover:text-evergreen"
+            >
+              SMS Terms
+            </a>
+            <a
+              href="/privacy"
+              className="transition-colors hover:text-evergreen"
+            >
+              Privacy
+            </a>
+            <span aria-hidden="true">Built right, shipped fast.</span>
+          </nav>
         </div>
       </div>
     </footer>
