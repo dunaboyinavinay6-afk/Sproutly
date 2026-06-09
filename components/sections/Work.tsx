@@ -30,7 +30,7 @@ export function Work() {
         {/* Featured build */}
         <Reveal>
           <article className="group mt-14">
-            <BrowserFrame url="sproutly.studio/case/landing">
+            <BrowserFrame url="sproutly.agency/case/landing">
               <div className="grid gap-0 sm:grid-cols-[1.3fr_1fr]">
                 <div className="space-y-4 p-7 sm:p-9">
                   <Bar w="w-2/3" tone="ink" />
@@ -84,7 +84,7 @@ export function Work() {
         <div className="mt-10 grid gap-10 md:grid-cols-2">
           <Reveal>
             <article>
-              <BrowserFrame url="sproutly.studio/case/site">
+              <BrowserFrame url="sproutly.agency/case/site">
                 <div className="p-6">
                   <div className="flex items-center justify-between border-b rule pb-3">
                     <span className="h-2.5 w-2.5 rounded-[3px] bg-evergreen" />
@@ -128,7 +128,7 @@ export function Work() {
 
           <Reveal delay={0.1}>
             <article>
-              <BrowserFrame url="app.sproutly.studio/ops">
+              <BrowserFrame url="app.sproutly.agency/ops">
                 <div className="flex gap-0">
                   <div className="w-1/4 space-y-2 border-r rule bg-bone-2 p-4">
                     {[0, 1, 2, 3].map((i) => (

@@ -42,10 +42,10 @@ export function Footer() {
           <ul className="mt-4 space-y-2.5 text-[0.98rem]">
             <li>
               <a
-                href="mailto:hello@sproutly.studio"
+                href="mailto:tejeshwar@sproutly.agency"
                 className="text-ink transition-colors hover:text-evergreen"
               >
-                hello@sproutly.studio
+                tejeshwar@sproutly.agency
               </a>
             </li>
             <li className="text-ink-soft">Remote, working worldwide</li>

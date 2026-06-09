@@ -8,7 +8,7 @@ type BrowserFrameProps = {
 
 /** A code-drawn browser window. Carries the studio's voice without stock photos. */
 export function BrowserFrame({
-  url = "sproutly.studio",
+  url = "sproutly.agency",
   children,
   className = "",
 }: BrowserFrameProps) {

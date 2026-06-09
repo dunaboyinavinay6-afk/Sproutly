@@ -23,10 +23,10 @@ export function Contact() {
 
                 <div className="mt-9 space-y-4 border-t border-on-green/20 pt-8">
                   <a
-                    href="mailto:hello@sproutly.studio"
+                    href="mailto:tejeshwar@sproutly.agency"
                     className="block font-display text-xl font-bold tracking-tight text-on-green underline decoration-on-green/30 underline-offset-4 transition-colors hover:decoration-on-green"
                   >
-                    hello@sproutly.studio
+                    tejeshwar@sproutly.agency
                   </a>
                   <ul className="space-y-1.5 text-[0.98rem] text-on-green/80">
                     <li>Replies within one working day</li>

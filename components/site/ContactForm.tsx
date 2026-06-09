@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-const STUDIO_EMAIL = "hello@sproutly.studio";
+const STUDIO_EMAIL = "tejeshwar@sproutly.agency";
 
 const PROJECTS = [
   "Custom web page",
@@ -124,7 +124,7 @@ export function ContactForm() {
         aria-live="polite"
       >
         {sent
-          ? "Your email app should be opening with the message ready. If it does not, write to us directly at hello@sproutly.studio."
+          ? "Your email app should be opening with the message ready. If it does not, write to us directly at tejeshwar@sproutly.agency."
           : "This opens your email app with the details filled in. Nothing is sent until you press send there."}
       </p>
     </form>

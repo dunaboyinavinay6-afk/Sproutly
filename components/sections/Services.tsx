@@ -57,7 +57,7 @@ export function Services() {
               an ad campaign, or a product that needs its own spotlight.
             </p>
           </div>
-          <BrowserFrame url="sproutly.studio/page">
+          <BrowserFrame url="sproutly.agency/page">
             <div className="space-y-3.5 p-6">
               <div className="space-y-2">
                 <div className="h-4 w-3/4 rounded bg-ink/85" />

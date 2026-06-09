@@ -60,7 +60,7 @@ export function Hero() {
 
           <Reveal mode="load" delay={0.3}>
             <div className="relative">
-              <BrowserFrame url="sproutly.studio/launch">
+              <BrowserFrame url="sproutly.agency/launch">
                 <div className="space-y-4 p-6">
                   <div className="flex items-center justify-between">
                     <span className="h-2.5 w-2.5 rounded-[3px] bg-evergreen" />
